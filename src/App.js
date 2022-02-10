@@ -1,22 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import Nav from './components/nav/Nav';
+import NavMenuMobile from './components/NavMenuMobile/NavMenuMobile';
+import Home from './components/home/Home';
+import Footer from './components/footer/Footer';
 
 function App() {
+
+    // state for nav menu mobile component
+    const [ navMenu, setNavMenu ] = useState(false);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <Nav setNavMenu={setNavMenu}/>
+          <NavMenuMobile navMenuOpen={navMenu} />
+          <Home />
+          <Footer />
       </header>
     </div>
   );

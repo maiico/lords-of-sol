@@ -1,0 +1,107 @@
+.scroll {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  z-index: 90;
+  position: absolute;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-img {
+  height: auto;
+  width: 680px;
+  margin: auto;
+}
+
+.scroll-content {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 68%;
+  margin: auto;
+  position: absolute;
+  z-index: 95;
+  text-align: left;
+  padding: 1rem;
+}
+
+.scroll-flag {
+  height: auto;
+  width: 80px;
+  margin: auto;
+}
+
+.scroll-heading {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #ffffff;
+  margin: auto;
+  padding: 1rem;
+}
+
+.scroll-txt {
+  font-size: 0.75rem;
+  color: #222831;
+  line-height: 1.8;
+  text-indent: 2rem;
+}
+
+.scroll-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: auto;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.magic-eden-button-scroll {
+  height: auto;
+  width: 225px;
+  background: rgb(126, 63, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(126, 63, 251, 1) 0%,
+    rgba(252, 70, 70, 1) 100%
+  );
+  padding: 1rem;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.65rem;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 414px) {
+  .scroll {
+    width: 100%;
+  }
+  .scroll-img {
+    width: 99%;
+  }
+
+  .scroll-flag {
+    width: 20px;
+  }
+
+  .scroll-heading {
+    font-size: 10px;
+  }
+
+  .scroll-txt {
+    font-size: 6px;
+  }
+
+  .scroll-btn-wrapper {
+    flex-direction: column;
+  }
+
+  .magic-eden-button-scroll {
+    margin: 5px;
+  }
+}

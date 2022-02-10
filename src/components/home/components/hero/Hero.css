@@ -1,0 +1,127 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  margin-top: 10rem;
+  justify-content: center;
+  background-color: #222831;
+  padding-bottom: 10rem;
+}
+
+.lords-gif {
+  height: auto;
+  width: 350px;
+  border-radius: 50%;
+  margin: 1rem;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 5px;
+}
+
+.content-wrapper {
+  height: auto;
+  width: 50%;
+  max-width: 600px;
+  background-color: #222831;
+  text-align: left;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+}
+
+.gif-wrapper {
+  height: auto;
+  width: 50%;
+  max-width: 600px;
+  background-color: #222831;
+}
+
+.hero-heading {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #ffd369;
+  padding: 1rem;
+}
+
+.hero-subheading {
+  font-size: 1rem;
+  font-weight: 250;
+  color: #eeeeee;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+.magic-eden-button {
+  height: auto;
+  width: 225px;
+  background: rgb(126, 63, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(126, 63, 251, 1) 0%,
+    rgba(252, 70, 70, 1) 100%
+  );
+  padding: 1rem;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.65rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.moonrank-button {
+  height: auto;
+  width: 225px;
+  background: rgb(21, 6, 96);
+  background: linear-gradient(
+    90deg,
+    rgba(21, 6, 96, 1) 0%,
+    rgba(2, 65, 233, 1) 51%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 1rem;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.65rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .hero {
+    flex-direction: column;
+    margin-top: 7rem;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .gif-wrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .content-wrapper {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .buttons-wrapper {
+    flex-direction: column;
+  }
+
+  .lords-gif {
+    width: 250px;
+  }
+}

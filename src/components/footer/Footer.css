@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-color: #222831;
+}
+
+.built-on-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-txt {
+  font-size: 1rem;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.solana-logo {
+  width: 120px;
+  height: auto;
+  padding: 1rem;
+}
+
+.footer-socials-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+
+.footer-icon {
+  color: #ffffff;
+  padding: 0.5rem;
+}

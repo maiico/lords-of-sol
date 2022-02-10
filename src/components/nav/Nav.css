@@ -1,0 +1,94 @@
+.nav {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  background-color: #222831;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  height: auto;
+  width: 250px;
+  margin: auto;
+  margin-left: 0;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.1rem;
+  margin: auto;
+}
+
+.nav-anchor:hover {
+  color: #ffd369;
+}
+
+.nav-anchor {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-icon:hover {
+  color: #ffd369;
+}
+
+.nav-icon {
+  color: #ffff;
+}
+
+.nav-txt {
+  font-family: "Press Start 2P", cursive;
+  color: #ffd369;
+}
+
+.fa-bars {
+  margin: auto;
+  margin-right: 0;
+  padding-right: 1.5rem;
+  cursor: pointer;
+}
+
+.fa-bars:hover {
+  color: #ffd369;
+}
+
+@media screen and (max-width: 960px) {
+  .nav {
+    position: absolute;
+  }
+  .nav-links {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .fa-bars {
+    display: none;
+  }
+}

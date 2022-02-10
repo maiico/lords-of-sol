@@ -1,0 +1,154 @@
+.lore {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  background-color: #393e46;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.lore-heading-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: center;
+  text-align: left;
+}
+
+.lore-heading {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #ffd369;
+  margin: auto;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.lore-txt {
+  font-size: 1rem;
+  font-weight: 75;
+  line-height: 1.6;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.map-container {
+  position: relative;
+  height: auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.map-img {
+  position: relative;
+  z-index: 50;
+  height: auto;
+  width: 950px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 5px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.human-castle {
+  position: absolute;
+  z-index: 80;
+  height: auto;
+  width: 120px;
+  top: 33%;
+  left: 35%;
+  cursor: pointer;
+}
+
+.human-castle:hover {
+  transform: scale(1.5);
+  transition: 0.5s ease-in-out;
+}
+
+.orc-castle {
+  position: absolute;
+  z-index: 80;
+  height: auto;
+  width: 120px;
+  top: 16%;
+  left: 52%;
+  cursor: pointer;
+}
+
+.orc-castle:hover {
+  transform: scale(1.5);
+  transition: 0.5s ease-in-out;
+}
+
+.undead-castle {
+  position: absolute;
+  z-index: 80;
+  height: auto;
+  width: 120px;
+  top: 65%;
+  left: 44%;
+  cursor: pointer;
+}
+
+.undead-castle:hover {
+  transform: scale(1.5);
+  transition: 0.5s ease-in-out;
+}
+
+.elf-castle {
+  position: absolute;
+  z-index: 80;
+  height: auto;
+  width: 120px;
+  top: 43%;
+  left: 62%;
+  cursor: pointer;
+}
+
+.elf-castle:hover {
+  transform: scale(1.5);
+  transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 960px) {
+  .map-img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .lore {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .human-castle {
+    width: 55px;
+  }
+
+  .orc-castle {
+    width: 55px;
+  }
+
+  .undead-castle {
+    width: 55px;
+  }
+
+  .elf-castle {
+    width: 55px;
+  }
+}
