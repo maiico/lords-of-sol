@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/lords-of-sol/static/css/main.64e7224d.css",
-    "main.js": "/lords-of-sol/static/js/main.fc10304f.js",
-    "static/media/roadmap.png": "/lords-of-sol/static/media/roadmap.0eed0ee47eff190afd94.png",
-    "static/media/map.png": "/lords-of-sol/static/media/map.8f205dc8d61a43b75ccf.png",
-    "static/media/orc_lord.png": "/lords-of-sol/static/media/orc_lord.dc89d2933fa6d6ee92b0.png",
-    "static/media/los_gif.gif": "/lords-of-sol/static/media/los_gif.7963db1f6e8d3fd9b128.gif",
-    "static/media/solana_logo.png": "/lords-of-sol/static/media/solana_logo.a6d3dfb5b87a4f3a7af9.png",
-    "static/media/human_castle.png": "/lords-of-sol/static/media/human_castle.9def1db3d5f5915e5fea.png",
-    "static/media/truccos.jpg": "/lords-of-sol/static/media/truccos.9a7bb820a84c33effa3a.jpg",
-    "static/media/undead_castle.png": "/lords-of-sol/static/media/undead_castle.a4a2f3276b41eb19f3e2.png",
-    "static/media/elf_castle.png": "/lords-of-sol/static/media/elf_castle.f2273b99754cb5ee5e0e.png",
-    "static/media/shaheen_avatar.png": "/lords-of-sol/static/media/shaheen_avatar.0cbb42aa879f3b0bcf95.png",
-    "static/media/orc_castle.png": "/lords-of-sol/static/media/orc_castle.837417f55805662505ba.png",
-    "static/media/scroll.png": "/lords-of-sol/static/media/scroll.1c3a4eaef89c4b382b1f.png",
-    "static/media/logo.png": "/lords-of-sol/static/media/logo.2239db3956b6b4fc9014.png",
-    "index.html": "/lords-of-sol/index.html",
-    "main.64e7224d.css.map": "/lords-of-sol/static/css/main.64e7224d.css.map",
-    "main.fc10304f.js.map": "/lords-of-sol/static/js/main.fc10304f.js.map"
+    "main.css": "/static/css/main.64e7224d.css",
+    "main.js": "/static/js/main.ad34fb2f.js",
+    "static/media/roadmap.png": "/static/media/roadmap.0eed0ee47eff190afd94.png",
+    "static/media/map.png": "/static/media/map.8f205dc8d61a43b75ccf.png",
+    "static/media/orc_lord.png": "/static/media/orc_lord.dc89d2933fa6d6ee92b0.png",
+    "static/media/los_gif.gif": "/static/media/los_gif.7963db1f6e8d3fd9b128.gif",
+    "static/media/solana_logo.png": "/static/media/solana_logo.a6d3dfb5b87a4f3a7af9.png",
+    "static/media/human_castle.png": "/static/media/human_castle.9def1db3d5f5915e5fea.png",
+    "static/media/truccos.jpg": "/static/media/truccos.9a7bb820a84c33effa3a.jpg",
+    "static/media/undead_castle.png": "/static/media/undead_castle.a4a2f3276b41eb19f3e2.png",
+    "static/media/elf_castle.png": "/static/media/elf_castle.f2273b99754cb5ee5e0e.png",
+    "static/media/shaheen_avatar.png": "/static/media/shaheen_avatar.0cbb42aa879f3b0bcf95.png",
+    "static/media/orc_castle.png": "/static/media/orc_castle.837417f55805662505ba.png",
+    "static/media/scroll.png": "/static/media/scroll.1c3a4eaef89c4b382b1f.png",
+    "static/media/logo.png": "/static/media/logo.2239db3956b6b4fc9014.png",
+    "index.html": "/index.html",
+    "main.64e7224d.css.map": "/static/css/main.64e7224d.css.map",
+    "main.ad34fb2f.js.map": "/static/js/main.ad34fb2f.js.map"
   },
   "entrypoints": [
     "static/css/main.64e7224d.css",
-    "static/js/main.fc10304f.js"
+    "static/js/main.ad34fb2f.js"
   ]
 }
